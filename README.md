@@ -10,7 +10,7 @@ For our staff, graduates, and interns:
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
 
-## [Optimize OpenCV for RISC-V](https://github.com/plctlab/plctlab.github.io/opencv/Optimize_OpenCV_for_RISC-V.md)
+## [Optimize OpenCV for RISC-V](https://plctlab.github.io/opencv/Optimize_OpenCV_for_RISC-V.html)
 
 Yin Zhang, 2020.11.16
 
