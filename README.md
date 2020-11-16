@@ -8,3 +8,10 @@ For our staff, graduates, and interns:
 - feel free to create new subfolder if you have a series of blogs to write.
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
+
+
+## [Optimize OpenCV for RISC-V](https://github.com/plctlab/plctlab.github.io/opencv/Optimize_OpenCV_for_RISC-V.md)
+
+Yin Zhang, 2020.11.16
+
+This is a Google Summer of Code project participated by Yin, a graduate student of PLCT lab. We adds a back-end implementation based on RISC-V vector extension for OpenCV in this project. This blog introduced the project and how to build and use it.
