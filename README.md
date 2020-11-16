@@ -1,4 +1,4 @@
-## Welcome PLCT Lab Blogs!
+## Welcome to PLCT Lab Blogs!
 
 For our staff, graduates, and interns:
 - This repo is hosting English blogs only. Chinese blogs should PR to [PLCT-Weekly](https://github.com/isrc-cas/PLCT-Weekly).
