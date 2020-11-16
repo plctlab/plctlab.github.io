@@ -1,5 +1,3 @@
-## Welcome to PLCT Lab Blogs!
-
 This is our tech blog in English. Chinese version is [PLCT-Weekly](https://github.com/isrc-cas/PLCT-Weekly).
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
