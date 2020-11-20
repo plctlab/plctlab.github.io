@@ -32,7 +32,7 @@ At present, we have completed the development of the first version implmentation
 ### prerequisites
 
 	apt-get update
-	apt-get install gcc g++ git make cmake python python3 gcc-multilib vim autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+	apt-get install gcc g++ git make cmake python python3 gcc-multilib vim autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev pkg-config libglib2.0-dev
 
 ### Build RISC-V GNU Compiler Toolchain and QEMU simulator
 	
@@ -40,7 +40,8 @@ At present, we have completed the development of the first version implmentation
 	cd riscv-gnu-toolchain
 	git submodule update --init --recursive
 	./configure --prefix=/opt/RISCV --with-arch=rv64gcv_zfh --with-abi=lp64d
-	make linux build-qemu -j16
+	make linux -j16
+	make build-qemu -j16
 
 ### Build OpenCV for RISC-V
 
@@ -52,7 +53,7 @@ At present, we have completed the development of the first version implmentation
 	
 ### Accuracy Test
 
-	riscv-gnu-toolchain/qemu/riscv64-linux-user/qemu-riscv64 -L opt/RISCV/sysroot/ -cpu rv64,x-v=true opencv/build/bin/opencv_test_core --gtest_filter="hal*"
+	/opt/RISCV/bin/qemu-riscv64 -L /opt/RISCV/sysroot/ -cpu rv64,x-v=true opencv/build/bin/opencv_test_core --gtest_filter="hal*"
 
 ### Test Result
 
