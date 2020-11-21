@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-title: Welcome to PLCT Lab
-description: Programming Languages and Compilation Techniques
+title: Welcome to the PLCT Lab
+description: We Write Compilers, Runtimes, and Emulators.
 markdown: kramdown
 url: "https://plctlab.github.io"
