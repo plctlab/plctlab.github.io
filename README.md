@@ -2,6 +2,14 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## 003 [Create a minimal Android system for RISC-V](https://plctlab.github.io/aosp/create-a-minimal-android-system-for-riscv.html)
+
+Chen Wang, 2020.11.24
+
+After a period of hard work, we can now run an Android "minimal system" on QEMU of RISC-V.
+
+The blog is a brief summary of the current work. Although the road ahead is still long, there is something to have a look.
+
 ## 002 [Building instruction and test of BishengJDK11 on HiFive Unleashed](https://plctlab.github.io/openjdk/Building_instruction_and_test_of_BishengJDK11_on_HiFive_Unleashed.html)
 
 Dingli Zhang, 2020.11.20
