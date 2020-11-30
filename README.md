@@ -2,6 +2,13 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## 004 [Open Wishlist for RISC-V 2021](https://plctlab.github.io/events/RISCV-Open-Wishlist-2021.html)
+
+Wei Wu, 2020.11.30
+
+The PLCT Lab is inviting everyone inside the RISC-V community to write to us the dev-tools or orther softwares you wish to have in the RISC-V ecosystem.
+Feel free to open an issue or PR and describe the tools you want.
+
 ## 003 [Create a minimal Android system for RISC-V](https://plctlab.github.io/aosp/create-a-minimal-android-system-for-riscv.html)
 
 Chen Wang, 2020.11.24
