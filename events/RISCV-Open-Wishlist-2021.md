@@ -33,11 +33,19 @@ into the PLCT Lab's Roadmap 2020[2]. Most of them have been acheived, includes:
 - QEMU Supports: Implemented SoC emulation for one RISC-V startup. Open Sourced [6].
 
 [0] https://github.com/plctlab/plctlab.github.io/issues
+
 [1] (Zh_CN) https://github.com/isrc-cas/PLCT-Weekly/blob/master/RISCV-DevTools-Wishlist-2020.md
+
 [2] (Zh_CN) https://github.com/isrc-cas/PLCT-Weekly/blob/master/RISCV-Roadmap-2020.md
+
 [3] https://github.com/v8-riscv/v8/
+
 [4] https://github.com/isrc-cas/rvv-llvm
+
 [5] https://plctlab.github.io/opencv/Optimize_OpenCV_for_RISC-V.html
+
 [6] https://github.com/isrc-cas/plct-qemu
+
 [7] BishengJDK has already speed up 20x: https://plctlab.github.io/openjdk/Building_instruction_and_test_of_BishengJDK11_on_HiFive_Unleashed.html
+
 [8] Chromium is being ported by some groups, e.g. the RIOS Lab. So we do not to take care of it.
