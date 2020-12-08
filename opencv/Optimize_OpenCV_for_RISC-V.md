@@ -40,20 +40,20 @@ At present, we have completed the development of the first version implmentation
 	cd riscv-gnu-toolchain
 	git submodule update --init --recursive
 	./configure --prefix=/opt/RISCV --with-arch=rv64gcv_zfh --with-abi=lp64d
-	make linux -j16
-	make build-qemu -j16
+	make linux -j$(nproc)
+	make build-qemu -j$(nproc)
 
 ### Build OpenCV for RISC-V
 
-	git clone git@github.com:joy2myself/opencv.git -b rvv
+	git clone git@github.com:opencv/opencv.git
 	cd opencv
 	mkdir build && cd build
 	cmake -DCMAKE_TOOLCHAIN_FILE=../platforms/linux/riscv64-gcc.toolchain.cmake ../
-	make -j16
+	make -j$(nproc)
 	
 ### Accuracy Test
 
-	/opt/RISCV/bin/qemu-riscv64 -L /opt/RISCV/sysroot/ -cpu rv64,x-v=true opencv/build/bin/opencv_test_core --gtest_filter="hal*"
+	/opt/RISCV/bin/qemu-riscv64 -cpu rv64,x-v=true opencv/build/bin/opencv_test_core --gtest_filter="hal*"
 
 ### Test Result
 
