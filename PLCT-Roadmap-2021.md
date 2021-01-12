@@ -47,7 +47,7 @@ In 2021, the PLCT Lab plans to achieve the following objectives on the GCC and L
 
 Andriod Open Source Project (AOSP) is one of the most important Open Source systems in the mobile phone, tablet and other fields, which has self-evident importance in the software ecosystem. So far, no company or team other than the PLCT Lab has publicly announced that they are working on RISC-V porting, including Google. Maybe it's because everyone is still waiting. However, for the PLCT Lab, we should start to try as early as possible to push the whole community towards a broader application scenario.
 
-In 2020, Mr. Wang Chen from the PLCT Lab completed the operation of AOSP's minimum system on RISC-V. In 2021, we plan to:
+In 2020, Mr. Chen Wang from the PLCT Lab completed the operation of AOSP's minimum system on RISC-V. In 2021, we plan to:
 
 - Continue to advance the AOSP for RISC-V project and attract more vendors and community developers to join our porting team.
 - Start the RISC-V porting of the critical component of Davlik/ART. Director Ningning Shi will participate in this project.
