@@ -2,6 +2,12 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## 005 [Roadmap of the PLCT Lab in 2021](https://plctlab.github.io/PLCT-Roadmap-2021.html)
+
+Xinyi Li, 2021.1.12
+
+This is the roadmap of the PLCT Lab in 2021, which is about our 2021 plan in the direction of RISC-V development tool.
+
 ## 004 [Open Wishlist for RISC-V 2021](https://plctlab.github.io/events/RISCV-Open-Wishlist-2021.html)
 
 Wei Wu, 2020.11.30
