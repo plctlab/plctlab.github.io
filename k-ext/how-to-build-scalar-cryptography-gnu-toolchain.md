@@ -23,7 +23,7 @@ Then clone the riscv-gnu-toolchain repository
 git clone https://github.com/riscv/riscv-gnu-toolchain 
 cd riscv-gnu-toolchain
 git submodule update --init
-``
+```
 
 Add remote with k-ext and checkout your branch with gcc and binutils
 
