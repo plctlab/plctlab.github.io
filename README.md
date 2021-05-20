@@ -2,6 +2,12 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## 006 [How to use krypoto extension with GNU toolchain](https://plctlab.github.io/how-to-build-scalar-cryptography-gnu-toolchain.html)
+
+Jiawei, 2021.5.20
+
+This is the way of how to compile and checkout the scalar cryptography extension with toolchain, which is the sub ISA of RISC-V.
+
 ## 005 [Roadmap of the PLCT Lab in 2021](https://plctlab.github.io/PLCT-Roadmap-2021.html)
 
 Xinyi Li, 2021.1.12
