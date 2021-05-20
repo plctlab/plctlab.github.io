@@ -2,7 +2,7 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
-## 006 [How to use krypoto extension with GNU toolchain](https://plctlab.github.io/how-to-build-scalar-cryptography-gnu-toolchain.html)
+## 006 [How to use krypoto extension with GNU toolchain](https://plctlab.github.io/k-ext/how-to-build-scalar-cryptography-gnu-toolchain.html)
 
 Jiawei, 2021.5.20
 
