@@ -44,7 +44,7 @@ Set configure for k-ext, you can build in rv32 or rv64 with different subsets of
 test total k-ext with zkn, zkr, zks with rv64
 
 ```
-./configure --prefix="/opt/riscv/rv64gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh" --with-arch=rv64gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh --with-abi=lp64d --with-multilib-generator="rv64gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh-lp64d--"
+./configure --prefix="/opt/riscv/rv64gck" --with-arch=rv64gc_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh --with-abi=lp64d --with-multilib-generator="rv64gc__zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh-lp64d--"
 ```
 
 you can use make -j* to make speed up
@@ -66,7 +66,7 @@ find riscv-binutils/gas/testsuite/gas/ -name k-ext*
 test in rv32:
 
 ```
-./configure --prefix="/opt/riscv/rv32gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh" --with-arch=rv32gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh --with-abi=ilp32d --with-multilib-generator="rv64gc_zkb_zkg_zknd_zkne_zknh_zkr_zksed_zksh-ilp32d--"
+./configure --prefix="/opt/riscv/rv32gck" --with-arch=rv32gc_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh --with-abi=ilp32d --with-multilib-generator="rv64gc_zbkb_zbkc_zbkx_zknd_zkne_zknh_zkr_zksed_zksh-ilp32d--"
 make clean 
 make report-gcc -j $(nproc)
 make report-binutils-newlib -j $(nproc)
