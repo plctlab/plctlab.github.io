@@ -2,6 +2,13 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+
+## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.github.io/PLCT-Roadmap-2022.html)
+
+Wei Wu, 2011-01-19
+
+This is the roadmap of the PLCT Lab in 2022.
+
 ## 006 [How to use krypoto extension with GNU toolchain](https://plctlab.github.io/k-ext/how-to-build-scalar-cryptography-gnu-toolchain.html)
 
 Jiawei, 2021.5.20
