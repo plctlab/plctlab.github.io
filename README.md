@@ -3,7 +3,7 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
 
-## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.github.io/PLCT-Roadmap-2022.html)
+## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.github.io/PLCT-Roadmap-2022.en.html)
 
 Wei Wu, 2011-01-19
 
