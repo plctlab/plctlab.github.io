@@ -5,7 +5,7 @@ If you have questions or sugguests, feel free to [open an issue](https://github.
 
 ## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.github.io/PLCT-Roadmap-2022.en.html)
 
-Wei Wu, 2011-01-19
+Wei Wu, 2022.1.19
 
 This is the roadmap of the PLCT Lab in 2022.
 
