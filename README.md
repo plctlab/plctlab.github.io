@@ -2,10 +2,15 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## 008 [This Month in PLCT (September 1, 2022)](https://plctlab.github.io/reports/2022-09-01.en.html)
+
+Wei Wu, et. al., 2022.9.1
+
+Get up-to-date on what we have been up to in the past month!
 
 ## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.github.io/PLCT-Roadmap-2022.en.html)
 
-Wei Wu, 2011-01-19
+Wei Wu, 2022.1.19
 
 This is the roadmap of the PLCT Lab in 2022.
 
