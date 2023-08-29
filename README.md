@@ -2,6 +2,13 @@ This is our tech blog in English. Chinese version is [PLCT-Weekly](https://githu
 
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
+## PLCT Monthly (in English)
+
+- [2022-12-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-12-01.en.md)
+- [2022-11-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-11-01.en.md)
+- [2022-10-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-10-01.en.md)
+- [2022-09-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-09-01.en.md)
+
 ## 008 [This Month in PLCT (September 1, 2022)](https://plctlab.github.io/reports/2022-09-01.html)
 
 Wei Wu, et. al., 2022.9.1
