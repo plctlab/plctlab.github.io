@@ -4,10 +4,21 @@ If you have questions or sugguests, feel free to [open an issue](https://github.
 
 ## PLCT Monthly (in English)
 
-- [2022-12-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-12-01.en.md)
-- [2022-11-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-11-01.en.md)
-- [2022-10-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-10-01.en.md)
-- [2022-09-01](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-09-01.en.md)
+2023
+[08](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-08-01.en.md)
+[07](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-07-01.en.md)
+[06](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-06-01.en.md)
+[05](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-05-01.en.md)
+[04](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-04-01.en.md)
+[03](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-03-01.en.md)
+[02](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-02-01.en.md)
+[01](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-01-01.en.md)
+
+2022
+[12](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-12-01.en.md)
+[11](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-11-01.en.md)
+[10](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-10-01.en.md)
+[09](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-09-01.en.md)
 
 ## 008 [This Month in PLCT (September 1, 2022)](https://plctlab.github.io/reports/2022-09-01.html)
 
