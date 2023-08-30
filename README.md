@@ -4,6 +4,10 @@ If you have questions or sugguests, feel free to [open an issue](https://github.
 ## PLCT Monthly (in English)
 
 2023
+/ 12
+/ 11
+/ 10
+/ 09
 / [08](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-08-01.en.md)
 / [07](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-07-01.en.md)
 / [06](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2022-06-01.en.md)
