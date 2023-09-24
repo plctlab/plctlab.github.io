@@ -7,7 +7,7 @@ If you have questions or sugguests, feel free to [open an issue](https://github.
 / 12
 / 11
 / 10
-/ 09
+/ [09](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2023-09-01.en.md)
 / [08](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2023-08-01.en.md)
 / [07](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2023-07-01.en.md)
 / [06](https://github.com/plctlab/PLCT-Weekly/blob/master/2023/2023-06-01.en.md)
