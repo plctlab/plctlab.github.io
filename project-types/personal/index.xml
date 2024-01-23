@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example Site</title>
+    <link>https://www.example.com/project-types/personal/</link>
+    <description>Recent content in Personal on Example Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2020 03:52:30 -0500</lastBuildDate><atom:link href="https://www.example.com/project-types/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide 2</title>
+      <link>https://www.example.com/subsection2/markdown-syntax-2/</link>
+      <pubDate>Thu, 19 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection2/markdown-syntax-2/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text and Feature Image</title>
+      <link>https://www.example.com/subsection/placeholder-text/</link>
+      <pubDate>Wed, 18 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection/placeholder-text/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>&#34;See Also&#34; and &#34;Read Next&#34; Demo</title>
+      <link>https://www.example.com/subsection/see-also-read-next/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection/see-also-read-next/</guid>
+      <description>Sample article showcasing the &#34;See Also&#34; and &#34;Read Next&#34; features.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://www.example.com/posts/emoji-support/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/posts/emoji-support/</guid>
+      <description>Guide to emoji usage in Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://www.example.com/subsection2/markdown-syntax/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection2/markdown-syntax/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    
+    <item>
+      <title>Really Long TOC That Scrolls</title>
+      <link>https://www.example.com/subsection/really-long-toc/</link>
+      <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection/really-long-toc/</guid>
+      <description>This post has a really long TOC that scrolls.</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://www.example.com/subsection/math-typesetting/</link>
+      <pubDate>Mon, 16 Nov 2020 21:21:46 -0500</pubDate>
+      
+      <guid>https://www.example.com/subsection/math-typesetting/</guid>
+      <description>A brief guide to setting up KaTeX.</description>
+    </item>
+    
+  </channel>
+</rss>
