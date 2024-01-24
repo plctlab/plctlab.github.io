@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PLCT Lab</title>
-    <link>https://www.example.com/en/posts/</link>
+    <link>https://1dentity84.github.io/plctlab.github.io/en/posts/</link>
     <description>Recent content in Posts on PLCT Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 17 Nov 2020 21:21:46 -0500</lastBuildDate><atom:link href="https://www.example.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 21:21:46 -0500</lastBuildDate><atom:link href="https://1dentity84.github.io/plctlab.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PLCT Weekly</title>
-      <link>https://www.example.com/en/posts/plct-weekly/</link>
+      <link>https://1dentity84.github.io/plctlab.github.io/en/posts/plct-weekly/</link>
       <pubDate>Tue, 17 Nov 2020 21:21:46 -0500</pubDate>
       
-      <guid>https://www.example.com/en/posts/plct-weekly/</guid>
+      <guid>https://1dentity84.github.io/plctlab.github.io/en/posts/plct-weekly/</guid>
       <description>This is our tech blog in English.</description>
     </item>
     

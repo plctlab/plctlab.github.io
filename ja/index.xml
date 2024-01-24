@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PLCT Lab</title>
-    <link>https://www.example.com/ja/</link>
+    <link>https://1dentity84.github.io/plctlab.github.io/ja/</link>
     <description>Recent content in Compilers, Runtimes, and Emulators. on PLCT Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 20 Feb 2023 03:52:30 -0500</lastBuildDate><atom:link href="https://www.example.com/ja/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Feb 2023 03:52:30 -0500</lastBuildDate><atom:link href="https://1dentity84.github.io/plctlab.github.io/ja/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

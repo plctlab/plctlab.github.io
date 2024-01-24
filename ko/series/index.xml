@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PLCT Lab</title>
-    <link>https://www.example.com/ko/series/</link>
+    <link>https://1dentity84.github.io/plctlab.github.io/ko/series/</link>
     <description>Recent content in Series on PLCT Lab</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-KR</language><atom:link href="https://www.example.com/ko/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>ko-KR</language><atom:link href="https://1dentity84.github.io/plctlab.github.io/ko/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
