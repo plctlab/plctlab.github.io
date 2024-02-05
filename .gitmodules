@@ -1,0 +1,3 @@
+[submodule "themes/hugo-liftoff"]
+	path = themes/hugo-liftoff
+	url = https://github.com/1dentity84/hugo-liftoff
