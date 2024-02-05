@@ -1,3 +1,0 @@
-### Params for production environment
-# Includes but overwrites anything in _default/params.toml
-# Excludes anything in _development/params.toml if it exists
