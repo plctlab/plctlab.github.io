@@ -1,0 +1,10 @@
+#contact-form {
+  flex-direction: column;
+  row-gap: 15px;
+  max-width: 500px;
+  margin-top: 30px;
+  
+  button {
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,178 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+ html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  /* Flex properties on body/main/footer are for floating footer
+  to bottom of page if main content doesn't fill viewport vertically */
+  display: flex;
+  flex-direction: column;
+}
+
+main {   
+  flex: 1 0 auto; 
+}
+
+footer {
+  flex-shrink: 0;    
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  @include on-event {
+    color: var(--color-text);
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  @include font-size('xl');
+}
+
+h2 {
+  @include font-size('lg');
+}
+
+h3 {
+  @include font-size('md');
+}
+
+h4 {
+  @include font-size('base');
+}
+
+h5 {
+  @include font-size('sm');
+}
+
+h6 {
+  @include font-size('sm');
+}
+
+table {
+  border-collapse: collapse;    
+  display: block;
+  overflow-x: auto;
+}
+
+td, th {
+  border: 1px solid var(--color-contrast-medium-low);
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+th {
+  border: 1px solid var(--color-contrast-medium);
+  background-color: var(--color-contrast-medium-low);
+  color: var(--color-contrast-high);
+  font-size: 1rem;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: var(--color-contrast-lower);
+  color: var(--color-contrast-high);
+}
+
+tr:nth-child(odd) td {
+  background-color: var(--color-contrast-low);
+  color: var(--color-contrast-high);
+}
+
+blockquote {
+  background: var(--color-contrast-lower);
+  border-left: 10px solid var(--color-contrast-low);
+  margin: 1.5em 10px;
+  padding: 0.7em 10px;
+  quotes: "\201C" "\201D";
+
+  p {
+    display: inline;
+  }
+
+  &::before {
+    color: var(--color-contrast-low);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+}
+
+pre {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  overflow-x: auto;
+}
+
+code {
+  overflow-x: scroll;
+}
+
+pre:not([style]) {
+  // If no highlighting is applied already
+  background-color:#272822;
+  color:#f8f8f2;
+  padding: 20px;
+}
+
+p > code, li > code {
+  background-color: var(--color-contrast-lower);
+  font-size: 1rem;
+  color: var(--color-inline-code);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+
+  input, textarea {
+    border: 1px solid var(--color-contrast-medium-low);
+    padding: 10px 12px;
+    font-size: 1rem;
+    background-color: var(--color-contrast-lower);
+    color: var(--color-contrast-high);
+
+    @include respond-to('small') {
+      padding: 15px 12px;
+      min-width: 250px;
+    }
+  }
+  
+  button {
+    cursor: pointer;
+  }
+}

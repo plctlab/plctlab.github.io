@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+  background-color: var(--color-contrast-lower);
+}
+
+.footer-socials {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  text-align: center;
+  @include font-size('base');
+  color: var(--color-contrast-medium-high);
+}

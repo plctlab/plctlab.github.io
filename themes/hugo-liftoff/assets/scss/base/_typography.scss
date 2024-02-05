@@ -1,0 +1,31 @@
+// -----------------------------------------------------------------------------
+// This file contains typography styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Basic typography style for copy text
+ */
+ body {
+  color: var(--color-text);
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+.summary-text {
+  font-weight: 300;
+  @include font-size('base');
+  color: var(--color-contrast-medium-high);
+}
+
+.meta-text {
+  color: var(--color-contrast-medium);
+  @include font-size('sm');
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+}
+
+.fallback-text {
+  color: var(--color-contrast-medium);
+  @include font-size('md');
+}

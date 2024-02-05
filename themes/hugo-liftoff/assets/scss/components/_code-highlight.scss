@@ -1,0 +1,14 @@
+.code-language {
+  position: relative;
+  padding: 6px 15px;    
+  border-radius: 5px;
+  background-color: #272822;
+  color: #7f7f7f;
+  z-index: 1000;
+  top: 25px;
+  @include font-size('base');
+}
+
+.highlight > pre {
+  padding: 20px;
+}

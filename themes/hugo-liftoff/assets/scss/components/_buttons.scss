@@ -1,0 +1,40 @@
+.btn-group {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 30px;
+}
+
+%btn {
+  border: 1px solid var(--color-primary);
+  padding: 0.4rem 0.7rem;
+  display: inline-block;
+  @include font-size('base');
+
+  @include respond-to('small') {
+    padding: 0.5rem 0.8rem;
+  }
+
+  @include on-event() {
+    text-decoration: none;
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: var(--color-primary);
+  color: var(--color-contrast-lower);
+
+  &:hover {
+    background: transparent;
+    color: var(--color-primary);
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-contrast-lower);
+  }
+}

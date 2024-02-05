@@ -1,0 +1,6 @@
+User-agent: *
+{{- if eq .Site.Params.disallow_search_engines true }}
+Disallow: /
+{{ else }}
+Disallow: {{ if not hugo.IsProduction }}/{{ end }}
+{{ end }}

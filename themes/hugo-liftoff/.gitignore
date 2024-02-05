@@ -1,0 +1,25 @@
+### Hugo ###
+public/
+resources
+# Don't ignore themes folder in your actual project .gitignore if using submodules!
+/themes/
+.hugo_build.lock
+# Hugo Pipes
+/assets/jsconfig.json
+hugo_stats.json
+# Hugo executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+### JS ###
+/node_modules
+
+### Netlify ###
+/netlify
+
+### System
+.DS_Store
+
+### Editor
+*.code-workspace

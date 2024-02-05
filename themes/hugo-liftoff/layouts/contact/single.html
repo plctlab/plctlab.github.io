@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header--c">
+    <h1 class="page-header-title">{{ .Title }}</h1>
+  </section>
+</div>
+<div class="contact">
+  <div class="single-container markdown">{{ .Content }}</div>
+  <form id="contact-form" class="single-container" name="contact" method="POST" {{ with .Site.Params.netlify_forms }}data-netlify="{{ . }}"{{ end }}>
+    <input type="text" class="contact-form--input" name="name" placeholder="Your name..." title="Enter your name" required>
+    <input type="email" class="contact-form--input" name="email" placeholder="Your best email..." title="Enter your best email" required>
+    <textarea class="contact-form--textarea" name="message" placeholder="Your message..." title="Enter your message" required></textarea>
+    <button type="submit" id="contact-form--submit" class="btn-primary">Send</button>
+  </form>
+</div>
+{{ end }}

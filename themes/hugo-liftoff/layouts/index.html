@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="container">
+  <section class="section hero">
+    <div class="hero-info">
+      <h1 class="hero-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="hero-subtitle">{{. | markdownify}}</p>
+      {{ end }}
+      <div class="btn-group">
+        {{ $p_cta := "" }}
+        {{ with .Params.primary_cta_page }}
+          {{ $p_cta = . }}
+        {{ end }}
+        {{ $s_cta := "" }}
+        {{ with .Params.secondary_cta_page }}
+          {{ $s_cta = . }}
+        {{ end }}
+        <!-- <a class="btn-primary"
+           href="{{ with $p_cta }}{{ . | relLangURL }}{{ else }}{{ "about" | relLangURL }}{{ end }}">
+           {{ if $p_cta }}{{ with .Site.GetPage $p_cta }}{{ .LinkTitle }}{{ end }}{{ else }}About{{ end }}
+        </a> -->
+        <!-- <a class="btn-secondary"
+           href="{{ with $s_cta }}{{ . | relURL }}{{ else }}{{ "projects" | relURL }}{{ end }}">
+           {{ if $s_cta }}{{ with .Site.GetPage $s_cta }}{{ .LinkTitle }}{{ end }}{{ else }}Projects{{ end }}
+        </a> -->
+      </div>
+    </div>
+    <div class="hero-owner">
+      {{ $avatar := .Site.Params.avatar }}
+      {{ $default_image := "images/default.png" }}
+      {{ $image := "" }}
+      {{ with $avatar }}
+        {{ $image = resources.Get $avatar }}
+      {{ else }}
+        {{ $image = resources.Get $default_image }}
+      {{ end }}
+      {{ if eq .Site.Params.grayscale_avatar true }}
+        {{ $image = $image | images.Filter (images.Grayscale)  }}
+      {{ end }}
+      <img class="hero-avatar"
+            src="{{ $image.RelPermalink }}"
+            width="{{- $image.Width -}}" height="{{- $image.Height -}}"
+            alt="Headshot or avatar belonging to the website owner"/>
+            <b>PLCT Lab founder- Wei Wu</b>
+      {{ if eq .Site.Params.home_hero_socials true }}
+        {{ partial "general/social-links.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{/*  Shortcodes from page content  */}}
+  {{ .Content }}
+</div>
+{{ end }}

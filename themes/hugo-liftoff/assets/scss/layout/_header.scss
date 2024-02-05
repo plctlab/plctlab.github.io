@@ -1,0 +1,128 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site.
+// -----------------------------------------------------------------------------
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+  row-gap: 20px;
+
+  .nav-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  @include respond-to('m-large') {
+    flex-direction: row; /* Horizontal nav on desktop */
+    align-items: center;
+    padding: 0;
+
+    .nav-toggle {
+      display: none; /* Hide nav toggle on desktop */
+    }
+  }
+}
+
+.logo {
+  @include font-size('md');
+  font-weight: 700;
+  text-decoration: none;
+  width: fit-content;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.menu-link {
+  color: var(--color-text);
+
+  &:hover {
+    color: var(--color-contrast-lower);
+  }
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--color-contrast-low);
+  border-top: 1px solid var(--color-contrast-low);
+
+  &--active {
+    display: flex; /* Display mobile menu on click */
+  }
+
+  .menu-item {
+    display: block;
+    list-style-type: none;
+  }
+
+  .menu-item--align {
+    @extend .menu-item;
+    align-self: center;
+    margin-left: 20px;
+  }
+
+  .menu-link {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1.4rem 1rem;
+
+    &:hover {
+      background-color: var(--color-primary);
+      color: var(--color-contrast-lower);
+    }
+  }
+
+  .drop-icon {
+    margin-left: 10px;
+  }
+
+  @include respond-to('m-large') {
+    display: flex;
+    flex-direction: row;
+    border: none;
+
+    .menu-item:hover {
+      .sub-menu {        
+        background-color: var(--color-contrast-lower);
+        padding-left: 0;
+        display: block;
+        z-index: 1;        
+      }
+    }
+  }
+}
+
+.sub-menu {
+  display: none;
+
+  &--active {
+    display: block;
+    z-index: 1;
+  }
+
+  .menu-link {
+    font-weight: initial;
+  }
+
+  @include respond-to('m-large') {
+    display: none;
+    position: absolute;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+    &--active {
+      display: none;
+    }
+  }
+}

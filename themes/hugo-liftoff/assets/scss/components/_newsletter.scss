@@ -1,0 +1,16 @@
+.newsletter-header {
+  color: var(--color-contrast-high);
+  margin-bottom: 0;
+}
+
+.newsletter-desc {
+  color: var(--color-contrast-medium-high);
+  @include font-size('base');
+}
+
+#newsletter-form {
+
+  input {
+    border-right: none;
+  }
+}

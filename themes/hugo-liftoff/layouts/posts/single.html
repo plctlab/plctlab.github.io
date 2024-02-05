@@ -1,0 +1,103 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header">
+    <h1 class="page-header-title">
+      {{- .Title -}}
+    </h1>
+    <div class="post-list-meta">
+      {{ partial "posts/post-meta.html" . }}
+      {{ with .Params.categories }}
+      <div class="post-list-categories">
+        {{ range . }}
+          <a href="{{ "categories" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ partial "general/label-drafts.html" . }}
+    </div>
+    <p class="page-header-desc">
+      {{- with .Params.Summary -}}
+        {{- . -}}
+      {{- else -}}
+        {{- .Description -}}
+      {{- end -}}
+    </p>
+    <div class="single-terms">
+      {{ with .Params.tags }}
+      {{ range . }}
+      <a class="term" href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a></li>
+      {{ end }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+<div class="single-container-post">
+  {{ partial "posts/toc.html" . }}
+  <div class="single-post-contents">
+    {{- if .Params.series }}
+      <div class="series">
+        {{- $name := index .Params.series 0 }}
+        <p>Part of the <a href="{{ "series" | absURL }}/{{ $name | urlize }}/">{{$name}}</a> series:</p>
+        {{- $name := $name | urlize }}
+        {{- $series := index .Site.Taxonomies.series $name }}
+        {{ $curtitle := .Title }}
+        <ol class="series-list">
+          {{- range $series.Pages.Reverse }}
+            <li>
+              {{- if eq .Title $curtitle -}}
+                {{- .Title -}}
+                <span class="series-this-post">This post!</span>
+              {{ else }}
+                <a href="{{.Permalink}}">{{ .Title }}</a>
+              {{ end }}
+            </li>
+          {{- end }}
+        </ol>
+      </div>
+    {{ end }}
+    <div class="single-feature-img">{{ partial "general/feature-image.html" . }}</div>
+    <article class="markdown">
+        {{ .Content }}
+    </article>
+    <aside>
+      <div class="single-terms">
+        {{ with .Params.tags }}
+          {{ range . }}
+          <a class="term" href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        {{ end }}
+      </div>
+      {{ partial "posts/social-share.html" . }}
+      {{- if .Params.series }}
+        <div class="series">
+          {{- $name := index .Params.series 0 }}
+          <p>Part of the <a href="{{ "series" | absURL }}/{{ $name | urlize }}/">{{$name}}</a> series:</p>
+          {{- $name := $name | urlize }}
+          {{- $series := index .Site.Taxonomies.series $name }}
+          {{ $curtitle := .Title }}
+          <ol>
+            {{- range $series.Pages.Reverse }}
+              <li>
+                {{- if eq .Title $curtitle -}}
+                {{- .Title -}}
+                  <span class="series-this-post">This post!</span>
+                {{ else }}
+                  <a href="{{.Permalink}}">{{ .Title }}</a>
+                {{ end }}
+              </li>
+            {{- end }}
+          </ol>
+        </div>
+      {{ else }}
+        {{ partial "posts/related.html" . }}
+        {{ partial "posts/next-previous.html" . }}
+      {{- end }}
+      {{ if and (.Site.DisqusShortname) (not .Site.IsServer) (ne .Params.disable_comments true) }}
+        <div class="section">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      {{ end }}
+    </aside>
+  </div>
+</div>
+{{ end }}

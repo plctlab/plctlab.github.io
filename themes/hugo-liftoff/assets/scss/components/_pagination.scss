@@ -1,0 +1,37 @@
+.pagination {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px 10px;
+  margin-top: 50px;
+  padding: 0;
+  @include font-size('base');
+}
+
+.page-link {
+  color: var(--color-contrast-medium-high);
+  padding: 8px 15px;
+  background-color: var(--color-contrast-lower);
+
+  &:hover {
+    color: var(--color-primary);
+  }
+
+  @include on-event {
+    text-decoration: none;
+  }
+}
+
+.page-item {
+  
+  &.disabled > a {
+    color: var(--color-contrast-low);
+    cursor:unset;
+  }
+
+  &.active > a {
+    background-color: var(--color-primary);
+    color: var(--color-contrast-lower);
+  }
+}

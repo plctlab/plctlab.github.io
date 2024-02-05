@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container">
+  <section class="page-header">
+    <div class="">
+      <h1 class="page-header-title">
+        {{- .Title -}}
+        <sup>{{ partial "general/label-drafts.html" . }}</sup>
+      </h1>
+      <div class="project-list-meta">
+        {{ with .Params.techstack }}
+        {{ range . }}
+          <span>{{ . }}</span>
+        {{ end }}
+        {{ end }}
+        {{ with .Param "project types" }}
+          {{ range first 1 . }}
+            <a href="{{ "project-types" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+      <p class="page-header-desc">
+        {{- with .Params.Summary -}}
+          {{- . -}}
+        {{- else -}}
+          {{- .Description -}}
+        {{- end -}}
+      </p>
+      {{ if or (.Params.live_url) (.Params.source_url) }}
+        <div class="btn-group">
+          {{ with .Params.live_url }}
+            <a class="btn-primary" href="{{ . }}">Live</a>
+          {{ end }}
+          {{ with .Params.source_url }}
+            <a class="btn-secondary" href="{{ . }}">Source</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+<div class="single-container">
+  <div class="single-feature-img">{{ partial "general/feature-image.html" . }}</div>
+  <article class="markdown">
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

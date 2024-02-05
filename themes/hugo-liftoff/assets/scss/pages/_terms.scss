@@ -1,0 +1,28 @@
+.terms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px 15px;
+}
+
+.term {
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  @include font-size('sm');
+  padding: 0.4rem 0.6rem;
+  
+  &:hover {
+    text-decoration: none;
+    border: 1px solid var(--color-contrast-high);
+    color: var(--color-contrast-high);
+  }
+
+  @include respond-to('small') {
+    padding: 0.5rem 0.7rem;
+  }
+}
+
+.term-count {
+  color: var(--color-contrast-high);
+  margin-left: 2px;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-US" }}">
+  {{- partial "head/head.html" . -}}
+  <body>
+    {{ if and (not .Site.IsServer) (.Site.Params.gtm_id) }}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {{ end }}
+    {{- partial "header/header.html" . -}}
+    <main class="section">
+    {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer/footer.html" . -}}
+    {{- partial "footer/scripts.html" . -}}
+  </body>
+</html>

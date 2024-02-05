@@ -1,0 +1,34 @@
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $options := (dict "enableSourceMap" (not hugo.IsProduction)) }}
+{{ $style := $sass | resources.ToCSS $options }}
+
+{{ $custom := "" }}
+{{ $custom_no_bundle := false }}
+{{ with .Site.Params.custom_css }}
+  {{ $custom = resources.Get . }}
+  {{/*  Only concatenate in production to allow source maps  */}}
+  {{ if hugo.IsProduction }}
+    {{ $bundle := slice $style $custom | resources.Concat "main.css" }}
+    {{ $style = $bundle }}
+  {{ else }}
+    {{ $custom_no_bundle = true }}
+  {{ end }}
+{{ end }}
+
+{{ $final := "" }}
+{{/*  Only enable PostCSS in production to allow source maps  */}}
+{{ if and (eq $.Site.Params.enable_postcss true) (hugo.IsProduction) }}
+  {{ $final = $style | postCSS (dict "config" "postcss.config.js") }}
+{{ else }}
+  {{ $final = $style }}
+{{ end }}
+
+{{ if hugo.IsProduction }}
+  {{/*  Only minify in production to allow source maps  */}}
+  {{ $final = $final | minify }}
+{{ end }}
+<link rel="stylesheet" href="{{ $final.Permalink }}" />
+{{/*  Custom goes last to preserve cascade in development  */}}
+{{ if $custom_no_bundle }}
+<link rel="stylesheet" href="{{ $custom.Permalink }}" />
+{{ end }}
