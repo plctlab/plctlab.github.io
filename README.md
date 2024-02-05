@@ -1,30 +1,3 @@
----
-title: PLCT Weekly
-seo_title: PLCT Weekly
-summary: This is our tech blog in English.
-description: This is our tech blog in English.
-slug: PLCT Weekly
-author: PLCT Lab
-
-draft: false
-date: 2020-11-17T21:21:46-05:00
-lastmod: 2020-11-18T21:21:46-05:00
-expiryDate: 
-publishDate: 
-
-feature_image: 
-feature_image_alt: 
-
-categories:
-tags:
-
-toc: true
-related: true
-social_share: true
-newsletter: true
-disable_comments: false
----
-
 This is our tech blog in English. Chinese version is [PLCT-Weekly](https://github.com/isrc-cas/PLCT-Weekly).
 If you have questions or sugguests, feel free to [open an issue](https://github.com/plctlab/plctlab.github.io/issues).
 
