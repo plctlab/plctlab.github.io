@@ -23,38 +23,38 @@ If you have questions or sugguests, feel free to [open an issue](https://github.
 / [10](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-10-01.en.md)
 / [09](https://github.com/plctlab/PLCT-Weekly/blob/master/2022/2022-09-01.en.md)
 
-## 008 [This Month in PLCT (September 1, 2022)](/reports/2022-09-01.html)
+## 008 [This Month in PLCT (September 1, 2022)](https://plctlab.org/reports/2022-09-01.html)
 
 Wei Wu, et. al., 2022.9.1
 
 Get up-to-date on what we have been up to in the past month!
 
-## 007 [Roadmap of the PLCT Lab in 2022](/PLCT-Roadmap-2022.en.html)
+## 007 [Roadmap of the PLCT Lab in 2022](https://plctlab.org/PLCT-Roadmap-2022.en.html)
 
 Wei Wu, 2022.1.19
 
 This is the roadmap of the PLCT Lab in 2022.
 
-## 006 [How to use krypoto extension with GNU toolchain](/k-ext/how-to-build-scalar-cryptography-gnu-toolchain.html)
+## 006 [How to use krypoto extension with GNU toolchain](https://plctlab.org/k-ext/how-to-build-scalar-cryptography-gnu-toolchain.html)
 
 Jiawei, 2021.5.20
 
 This is the way of how to compile and checkout the scalar cryptography extension with toolchain, which is the sub ISA of RISC-V.
 
-## 005 [Roadmap of the PLCT Lab in 2021](/PLCT-Roadmap-2021.html)
+## 005 [Roadmap of the PLCT Lab in 2021](https://plctlab.org/PLCT-Roadmap-2021.html)
 
 Xinyi Li, 2021.1.12
 
 This is the roadmap of the PLCT Lab in 2021, which is about our 2021 plan in the direction of RISC-V development tool.
 
-## 004 [Open Wishlist for RISC-V 2021](/events/RISCV-Open-Wishlist-2021.html)
+## 004 [Open Wishlist for RISC-V 2021](https://plctlab.org/events/RISCV-Open-Wishlist-2021.html)
 
 Wei Wu, 2020.11.30
 
 The PLCT Lab is inviting everyone inside the RISC-V community to write to us the dev-tools or orther softwares you wish to have in the RISC-V ecosystem.
 Feel free to open an issue or PR and describe the tools you want.
 
-## 003 [Create a minimal Android system for RISC-V](/aosp/create-a-minimal-android-system-for-riscv.html)
+## 003 [Create a minimal Android system for RISC-V](https://plctlab.org/aosp/create-a-minimal-android-system-for-riscv.html)
 
 Chen Wang, 2020.11.24
 
@@ -62,7 +62,7 @@ After a period of hard work, we can now run an Android "minimal system" on QEMU 
 
 The blog is a brief summary of the current work. Although the road ahead is still long, there is something to have a look.
 
-## 002 [Building instruction and test of BishengJDK11 on HiFive Unleashed](/openjdk/Building_instruction_and_test_of_BishengJDK11_on_HiFive_Unleashed.html)
+## 002 [Building instruction and test of BishengJDK11 on HiFive Unleashed](https://plctlab.org/openjdk/Building_instruction_and_test_of_BishengJDK11_on_HiFive_Unleashed.html)
 
 Dingli Zhang, 2020.11.20
 
@@ -70,7 +70,7 @@ BishengJDK 11 now brings the template interpreter and backends of C1/C2 compiler
 
 This test is to build the JDK on RISCV64 and start to do some benchmark on HiFive Unleashed.
 
-## 001 [Optimize OpenCV for RISC-V](/opencv/Optimize_OpenCV_for_RISC-V.html)
+## 001 [Optimize OpenCV for RISC-V](https://plctlab.org/opencv/Optimize_OpenCV_for_RISC-V.html)
 
 Yin Zhang, 2020.11.16
 
