@@ -7,7 +7,7 @@ primary_cta_page: "about"
 secondary_cta_page: "projects"
 
 posts_section_heading: Recent Posts
-projects_section_heading: Projetcts
+projects_section_heading: Projects
 ---
 
 {{< recent-posts 5 >}}
