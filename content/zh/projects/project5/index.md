@@ -1,7 +1,7 @@
 ---
 title: writing-your-first-riscv-simulator
 seo_title: writing-your-first-riscv-simulator
-summary: Resources for the course "Writing-Your-First-RISC-V-Simulator
+summary: 《从零开始的RISC-V模拟器开发》配套的PPT和教学资料
 description: Resources for the course "Writing-Your-First-RISC-V-Simulator
 slug: writing-your-first-riscv-simulator
 author: PLCT Lab
@@ -19,7 +19,7 @@ project types:
     - Open Source
 
 techstack:
-    - Simulator
+    - 模拟器
 live_url: https://github.com/plctlab/writing-your-first-riscv-simulator
 ---
 
