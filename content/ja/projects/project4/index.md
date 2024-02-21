@@ -1,7 +1,7 @@
 ---
 title: PLCT-Weekly
 seo_title: PLCT-Weekly
-summary: PLCT Lab’s occasional briefings in the open source field
+summary: オープンソース分野におけるPLCT Labの不定期ブリーフィング
 description: PLCT Lab’s occasional briefings in the open source field
 slug: PLCT-Weekly
 author: PLCT Lab

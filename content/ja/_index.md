@@ -1,13 +1,13 @@
 ---
-title: Compilers, Runtimes, and Emulators.
-subtitle: The PLCT Lab is a toolchain team focusing on RISC-V related compilers, emulators, and language virtual machines. It is part of Intelligence Software Research Center (ISRC), which is part of Institute of Software, Chinese Academy of Sciences (ISCAS).
-seo_title: PLCT Lab
+title: コンパイラ、ランタイム、エミュレータ。
+subtitle: PLCT Lab は、RISC-V 関連のコンパイラ、エミュレータ、および言語仮想マシンに焦点を当てたツールチェーン チームです。中国科学院ソフトウェア研究所 (ISCAS) の一部であるインテリジェンス ソフトウェア研究センター (ISRC) の一部です。
+seo_title: PLCT Lab 
 
 primary_cta_page: "about"
 secondary_cta_page: "projects"
 
 posts_section_heading: Recent Posts
-projects_section_heading: Projects
+projects_section_heading: プロジェクト 
 ---
 
 {{< recent-posts 5 >}}
