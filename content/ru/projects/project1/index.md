@@ -2,7 +2,7 @@
 title: v8-internals
 seo_title: v8-internals
 summary: Internal V8 Implementation Documentation for Compiler Developers
-description: Internal V8 Implementation Documentation for Compiler Developers
+description: Внутренняя документация по реализации V8 для разработчиков компиляторов
 slug: v8-internals
 author: PLCT Lab
 
