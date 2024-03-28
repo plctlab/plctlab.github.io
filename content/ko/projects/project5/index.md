@@ -1,8 +1,8 @@
 ---
 title: writing-your-first-riscv-simulator
 seo_title: writing-your-first-riscv-simulator
-summary: Resources for the course "Writing-Your-First-RISC-V-Simulator
-description: Resources for the course "Writing-Your-First-RISC-V-Simulator
+summary: "RISC-V-시뮬레이터 쓰기-최초-RISC-V-시뮬레이터" 과정에 대한 리소스
+description: "RISC-V-시뮬레이터 쓰기-최초-RISC-V-시뮬레이터" 과정에 대한 리소스
 slug: writing-your-first-riscv-simulator
 author: PLCT Lab
 
