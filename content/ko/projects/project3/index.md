@@ -1,8 +1,8 @@
 ---
 title: PLCT-Open-Reports
 seo_title: PLCT-Open-Reports
-summary: Public speeches by PLCT Lab, or group reports that have been decided to be made public
-description: Public speeches by PLCT Lab, or group reports that have been decided to be made public
+summary: 공개가 결정된 PLCT Lab의 공개 연설 또는 그룹 보고서
+description: 공개가 결정된 PLCT Lab의 공개 연설 또는 그룹 보고서
 slug: PLCT-Open-Reports
 author: John Doe
 

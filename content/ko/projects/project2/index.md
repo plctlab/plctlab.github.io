@@ -1,8 +1,8 @@
 ---
 title: riscv-operating-system-mooc
 seo_title: riscv-operating-system-mooc
-summary: Resources for the course "Step by step, learn to develop an operating system on RISC-V"
-description: Resources for the course "Step by step, learn to develop an operating system on RISC-V"
+summary: 코스 리소스 "단계별로 RISC-V에서 운영 체제를 개발하는 방법을 배웁니다."
+description: 코스 리소스 "단계별로 RISC-V에서 운영 체제를 개발하는 방법을 배웁니다."
 slug: riscv-operating-system-mooc
 author: PLCT Lab
 
