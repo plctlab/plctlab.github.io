@@ -30,6 +30,16 @@ DefaultContentLanguageInSubdir = true
     languageName = 'English'
     title = 'PLCT Lab'
     weight = 2
+  [languages.en.menus]
+  [[languages.en.menus.main]]
+    name = "PLCT-Weekly"
+    url = "/en/posts/plct-weekly/"
+    weight = 5
+  [[languages.en.menus.main]]
+    identifier = "News"
+    name = "News"
+    url = "/en/news/"
+    weight = 4
   [languages.zh]
     contentDir = 'content/zh'
     disabled = false
@@ -40,6 +50,16 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     hasCJKLanguage = true
     summaryLength = 230
+  [languages.zh.menus]
+    [[languages.zh.menus.main]]
+    name = "PLCT-Weekly"
+    url = "/en/posts/plct-weekly/"
+    weight = 5
+  [[languages.zh.menus.main]]
+    identifier = "News"
+    name = "新闻"
+    url = "/zh/news/"
+    weight = 4
   [languages.ru]
     contentDir = 'content/ru'
     disabled = false
@@ -48,6 +68,16 @@ DefaultContentLanguageInSubdir = true
     languageName = 'Русский'
     title = 'PLCT Lab'
     weight = 3
+      [languages.ru.menus]
+        [[languages.ru.menus.main]]
+    name = "PLCT-Weekly"
+    url = "/en/posts/plct-weekly/"
+    weight = 5
+  [[languages.ru.menus.main]]
+    identifier = "News"
+    name = "Новости"
+    url = "/ru/news/"
+    weight = 4
   [languages.ja]
     contentDir = 'content/ja'
     disabled = false
@@ -58,6 +88,16 @@ DefaultContentLanguageInSubdir = true
     weight = 4
     hasCJKLanguage = true
     summaryLength = 230
+    [languages.ja.menus]
+      [[languages.ja.menus.main]]
+    name = "PLCT-Weekly"
+    url = "/en/posts/plct-weekly/"
+    weight = 5
+  [[languages.ja.menus.main]]
+    identifier = "News"
+    name = "消息"
+    url = "/ja/news/"
+    weight = 4
   [languages.ko]
     contentDir = 'content/ko'
     disabled = false
@@ -68,7 +108,16 @@ DefaultContentLanguageInSubdir = true
     weight = 5
     hasCJKLanguage = true
     summaryLength = 230
-
+        [languages.ko.menus]
+          [[languages.ko.menus.main]]
+    name = "PLCT-Weekly"
+    url = "/en/posts/plct-weekly/"
+    weight = 5
+  [[languages.ko.menus.main]]
+    identifier = "News"
+    name = "소식"
+    url = "/ko/news/"
+    weight = 4
 #disableAliases = true # Set to true if using server (Netlify, .htaccess) for redirects instead of Hugo
 disableKinds = [] # Default
 enableEmoji = true # Use Emojis in content
