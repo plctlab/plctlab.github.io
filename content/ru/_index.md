@@ -1,13 +1,13 @@
 ---
 title: Компиляторы, режимы выполнения и эмуляторы.
-subtitle: The PLCT Lab is a toolchain team focusing on RISC-V related compilers, emulators, and language virtual machines. It is part of Intelligence Software Research Center (ISRC), which is part of Institute of Software, Chinese Academy of Sciences (ISCAS).
+subtitle: Лаборатория языков программирования и компиляции (PLCT Lab), основанная в 2019 году, стремится стать лидером с открытым исходным кодом в области технологий компиляции, продвигая технологические инновации в программной инфраструктуре, такой как набор инструментов и система времени выполнения, а также обладая техническими и управленческими способностями. руководить развитием и обслуживанием важной инфраструктуры. В то же время PLCT Lab стремится развивать 10 000 передовых талантов в области компиляции и способствовать популяризации и развитию передовых технологий компиляции в Китае.
 seo_title: PLCT Lab
 
 primary_cta_page: "about"
 secondary_cta_page: "projects"
 
 posts_section_heading: Recent Posts
-projects_section_heading: Projects
+projects_section_heading: Проекты
 ---
 
 {{< recent-posts 5 >}}

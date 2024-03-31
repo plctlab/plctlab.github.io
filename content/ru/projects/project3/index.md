@@ -1,7 +1,7 @@
 ---
 title: PLCT-Open-Reports
 seo_title: PLCT-Open-Reports
-summary: Public speeches by PLCT Lab, or group reports that have been decided to be made public
+summary: Публичные выступления PLCT Lab или групповые отчеты, которые было решено обнародовать.
 description: Public speeches by PLCT Lab, or group reports that have been decided to be made public
 slug: PLCT-Open-Reports
 author: John Doe

@@ -1,5 +1,5 @@
 ---
-title: News
-summary: This is our recently news.
+title: ニュース
+summary: これは最近のニュースです。
 description: Explore some of recent posts.
 ---

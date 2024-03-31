@@ -1,5 +1,5 @@
 ---
-title: News
-summary: This is our recently news.
-description: Explore some of recent posts.
+title: Новости
+summary: Это наши последние новости.
+description: Изучите некоторые из последних публикаций.
 ---
