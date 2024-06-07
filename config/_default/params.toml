@@ -16,8 +16,8 @@ label_drafts = true # Add a label indicator next to the title of any built draft
 # Customize newsletter text
 newsletter_header = "PLCT Lab"
 newsletter_description = "This is my custom newsletter description that tells you why you should sign up."
-newsletter_submit = "Join now"
-global_newsletter = false # Enable newsletter site-wide
+newsletter_submit = "Subscribe"
+global_newsletter = true # Enable newsletter site-wide
 
 # CSS / JavaScript
 enable_postcss = false # Enable if you're using npm and want to utilize PostCSS processing
