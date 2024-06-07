@@ -14,10 +14,10 @@ fallback_text = "No content available yet. Coming soon." # Fallback text for emp
 label_drafts = true # Add a label indicator next to the title of any built drafts (dev only)
 
 # Customize newsletter text
-newsletter_header = "PLCT Lab"
-newsletter_description = "This is my custom newsletter description that tells you why you should sign up."
+newsletter_header = "Subscribe"
+newsletter_description = "Subscribe to join us and get the latest news and event information."
 newsletter_submit = "Join now"
-global_newsletter = false # Enable newsletter site-wide
+global_newsletter = true # Enable newsletter site-wide
 
 # CSS / JavaScript
 enable_postcss = false # Enable if you're using npm and want to utilize PostCSS processing
