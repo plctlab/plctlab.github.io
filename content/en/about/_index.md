@@ -1,21 +1,9 @@
 ---
-type: about
-linktitle: About
-title: Hi, this is PLCT Lab.
-seo_title: About
-description: Learn more about us.
+type: More
+linktitle: more
+title: Privacy policy
+seo_title: More
+description: This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on. We follow the guidelines of the Dutch Government, which describe how to use Google Analytics without requiring explicit consent.
 ---
 
-PLCT Lab - it is
 
-## Who am I?
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce sem augue, tristique luctus lobortis nec, cursus eu erat. Proin dictum vel enim a vestibulum.
-
-## My Experience
-
-Integer est purus, aliquam ac enim aliquet, viverra sodales mauris. Integer neque sapien, fermentum sit amet augue in, vulputate pellentesque turpis. Quisque eget blandit turpis, in semper lectus.
-
-## Learn More
-
-You can also link to [other pages]({{< ref "contact" >}}) in your markdown.
