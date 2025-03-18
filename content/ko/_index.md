@@ -6,7 +6,7 @@ seo_title: PLCT Lab
 primary_cta_page: "about"
 secondary_cta_page: "projects"
 
-posts_section_heading: Recent Posts
+posts_section_heading: 최근 뉴스
 projects_section_heading: 프로젝트
 ---
 
