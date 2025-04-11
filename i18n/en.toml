@@ -1,3 +1,8 @@
 founder = 'PLCT Lab founder - Wu Wei'
 view = 'View All'
 recentnews = 'More News'
+gitbutton = 'Learn More'
+newsletter_header = 'Subscribe'
+newsletter_description = 'Subscribe to join us and get the latest news and event information.'
+enteremail = 'Enter your email'
+joinus = 'Join us'

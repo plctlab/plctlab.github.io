@@ -2,13 +2,13 @@
 baseURL = 'https://plctlab.github.io' # Enter your full production URL
 languageCode = 'en-us' # Default
 timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-#title = 'PLCT Lab' # Site title used throughout site
+title = 'PLCT Lab' # Site title used throughout site
 theme = 'hugo-liftoff'
 
 ### SEO, Analytics & 3rd-party
 enableRobotsTXT = true # To overwrite the theme's robots.txt, add your own in the /layouts/ directory
 rssLimit = -1 # -1 is unlimited RSS entries
-# googleAnalytics = '' # Enter GA tracking ID to enable GA4
+googleAnalytics = 'G-1WLCFRCXQZ' # Enter GA tracking ID to enable GA4
 # disqusShortname = '' # Enter Disqus shortname to enable comments
 
 ### Content & Publishing
@@ -20,6 +20,7 @@ canonifyURLs = false # Default
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 # uglyURLs = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [languages]
   [languages.en]
@@ -68,8 +69,8 @@ DefaultContentLanguageInSubdir = true
     languageName = 'Русский'
     title = 'PLCT Lab'
     weight = 3
-      [languages.ru.menus]
-        [[languages.ru.menus.main]]
+    [languages.ru.menus]
+      [[languages.ru.menus.main]]
     name = "PLCT-Weekly"
     url = "/en/posts/plct-weekly/"
     weight = 5

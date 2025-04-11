@@ -5,24 +5,24 @@ disallow_search_engines = false # Disallow search engine crawling in robots.txt
 
 ### Content
 favicon = true # Enable favicon, add your favicon files to /static/ directory
-avatar = './images/wuwei.jpg' # Custom avatar image in /assets/
+#avatar = './images/wuwei.jpg' # Custom avatar image in /assets/
 grayscale_avatar = false # Add a grayscale filter to the avatar image
 author = 'PLCT Lab' # Default author for <head> meta
 description = "Official website of PLCT Lab" # Add a global meta description to <head>
-#footer_text = "Built with [Hugo Liftoff](https://github.com/wjh18/hugo-liftoff) theme." # Customize footer text
+footer_text = "All rights reserved." # Customize footer text
 fallback_text = "No content available yet. Coming soon." # Fallback text for empty content
 label_drafts = true # Add a label indicator next to the title of any built drafts (dev only)
 
 # Customize newsletter text
-newsletter_header = "Subscribe"
-newsletter_description = "Subscribe to join us and get the latest news and event information."
-newsletter_submit = "Join now"
+# newsletter_header = "Subscribe"
+# newsletter_description = "Subscribe to join us and get the latest news and event information."
+# newsletter_submit = "Join now"
 global_newsletter = true # Enable newsletter site-wide
 
 # CSS / JavaScript
 enable_postcss = false # Enable if you're using npm and want to utilize PostCSS processing
-#custom_css = 'custom.css' # Add the specified file to assets before setting this param to avoid errors
-#custom_js = 'custom.js' # Add the specified file to assets before setting this param to avoid errors
+custom_css = 'custom.css' # Add the specified file to assets before setting this param to avoid errors
+custom_js = 'custom.js' # Add the specified file to assets before setting this param to avoid errors
 
 ### Web schemas
 # Open Graph
@@ -42,9 +42,9 @@ schemaImageHeight = 455 # Height of the above image
 
 ### Social
 # Show social links in footer, home hero section, or about page
-footer_socials = false
-home_hero_socials = true
-about_page_socials = true
+footer_socials = true
+home_hero_socials = false
+about_page_socials = false
 
 # Enable or disable individual social icons
 [social.links]
@@ -53,11 +53,11 @@ about_page_socials = true
   # linkedin = "username" # Comment out to disable
   # mastodon_server = "example.social" # include subdomains if relevant, scheme not needed (defaults to https)
   # mastodon_user = "username" # don't include preceding @
-  bilibili = "296494084"
+  bilibili = "3546645654407506"
 
 # Enable or disable individual social share icons in posts
 [social.share]
-  facebook = true
-  twitter = true
-  reddit = true
-  email = true
+  facebook = false
+  twitter = false
+  reddit = false
+  email = false

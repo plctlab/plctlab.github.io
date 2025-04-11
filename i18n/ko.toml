@@ -1,3 +1,8 @@
 founder = 'PLCT 연구소 설립자 - Wu Wei'
 view = '모두보기'
 recentnews = '더 많은 뉴스'
+gitbutton = '자세히 알아보기'
+newsletter_header = '구독하다'
+newsletter_description = '구독하시면 저희와 함께 최신 뉴스와 이벤트 정보를 받으실 수 있습니다.'
+enteremail = '이메일을 입력하세요'
+joinus = '우리와 함께하세요'

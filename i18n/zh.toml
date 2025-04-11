@@ -1,3 +1,8 @@
 founder = 'PLCT Lab 创始人 - 吴伟'
 view = '查看全部'
 recentnews = '更多新闻'
+gitbutton = '了解更多'
+newsletter_header = '订阅'
+newsletter_description = '订阅加入我们并获取最新新闻和活动信息。'
+enteremail = '输入您的电子邮件'
+joinus = '加入我们'

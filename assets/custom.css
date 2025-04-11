@@ -1,0 +1,417 @@
+/* 菜单栏 */
+.plct-header {
+  background-color: #f4f4f5;
+  color: #272822;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.plct-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #272822;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.plct-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.menu-item {
+  position: relative;
+  font-weight: bold;
+}
+
+.menu-link {
+  color: #272822;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.menu-link:hover {
+  color: #ccc;
+}
+
+/* 子菜单 */
+.has-children .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  padding: 0.5rem 0;
+  list-style: none;
+  top: 100%;
+  min-width: 160px;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+.has-children:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 0.6rem 1rem;
+  white-space: nowrap;
+}
+
+.sub-menu li a:hover {
+  background-color: #222;
+}
+
+/* 语言切换样式 */
+/* .lang-switch {
+  margin-left: auto;
+} */
+
+.lang-switch .active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+/* 响应式菜单按钮 */
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .plct-menu {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+
+  .plct-menu.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* 全宽背景样式 */
+/* .full-width-background {
+  width: 100%;
+  position: relative;
+  background-color: #e2e8f0;
+  padding: 50px 0;
+  overflow: hidden;
+} */
+
+
+/* 内容容器 */
+/* .hero-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+} */
+
+
+
+
+
+/* 标题样式 */
+.section-title {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* 副标题样式 */
+.section-subtitle {
+  color: #000000;
+  font-size: 1.19rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+  .section-title {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  /* 副标题样式 */
+  .section-subtitle {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+}
+
+/* 标题样式 */
+.section2-title {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+/* 副标题样式 */
+.section2-subtitle {
+  color: #000000;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+
+  .section2-title {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  /* 副标题样式 */
+  .section2-subtitle {
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+}
+
+/* GitHub按钮 */
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  background-color: #2d3748;
+  color: #f8f9fc !important;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.github-button:hover {
+  background-color: #4299e1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.github-button svg {
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+/* 新闻网格容器 */
+.news-grid-container {
+  width: 100%;
+}
+
+/* 响应式设计 */
+/* @media (max-width: 1140px) {
+  .hero-content {
+    padding: 0 30px;
+  }
+} */
+
+@media (max-width: 768px) {
+  /* .full-width-background {
+    padding: 60px 0;
+  } */
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+
+  /* .hero-content {
+    padding: 0 20px;
+  } */
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  /* .hero-content {
+    padding: 0 15px;
+  }
+   */
+  .hero-subtitle {
+    max-width: 100%;
+  }
+}
+
+/* 新闻订阅 */
+.plct-newsletter-section {
+  background: #f9f9f9;
+  /* padding: 4rem 1rem; */
+  border-top: 1px solid #e5e5e5;
+  /* border-bottom: 1px solid #e5e5e5; */
+  text-align: center;
+}
+
+.newsletter-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.newsletter-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+#newsletter-form--input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+#newsletter-form--input:focus {
+  border-color: #007aff;
+}
+
+.newsletter-button {
+  padding: 0.75rem 1.25rem;
+  background: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-button:hover {
+  background: #005fcc;
+}
+
+.newsletter-responses {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #cc0000;
+}
+
+/* 全宽容器基础样式 */
+.full-width-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 全宽背景实现（修正版） */
+.full-width-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* 容器间隙 */
+.section-gap {
+  height: 12px;
+  /* 间隙高度 */
+  background: transparent;
+  /* 透明间隙 */
+}
+
+/* 4种莫兰迪背景色 */
+.section-1::before {
+  background-color: #f4f4f5;
+}
+
+.section-2::before {
+  background: #e3e6e8;
+}
+
+.section-3::before {
+  background: #cdd5d9;
+}
+
+.section-4::before {
+  background: #f2f4f6;
+}
+
+.section-5::before {
+  background: #dee5ea;
+}
+
+/* 内容容器（保持1140px限制） */
+.content-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+
+  .section-gap {
+    height: 12px;
+  }
+}
