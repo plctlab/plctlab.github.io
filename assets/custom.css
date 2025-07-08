@@ -219,6 +219,11 @@
   transition: all 0.3s ease;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  margin-right: 30px;
+}
+
+.github-button:last-child {
+  margin-right: 0; /* 避免最后一个按钮多出空隙 */
 }
 
 .github-button:hover {
