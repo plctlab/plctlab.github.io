@@ -1,7 +1,7 @@
 ### General
 baseURL = 'https://plctlab.github.io' # Enter your full production URL
 languageCode = 'en-us' # Default
-timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timeZone = 'Asia/Shanghai' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 title = 'PLCT Lab' # Site title used throughout site
 theme = 'hugo-liftoff'
 
@@ -130,7 +130,7 @@ enableEmoji = true # Use Emojis in content
 enableGitInfo = false # Default, enable to use git for lastmod (can be overwritten in frontmatter)
 ignoreFiles = [] # Default
 # newContentEditor = 'code' # Set VS Code as default editor
-paginate = 10 # Default
+paginate = 20 # Default
 paginatePath = 'page' # Default
 #pluralizeListTitles = true # Default
 publishDir = 'public' # Default
