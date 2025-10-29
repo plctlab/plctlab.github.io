@@ -424,3 +424,7 @@
 .footer{
   padding:10px;
 }
+
+.single-container {
+  text-align: justify;
+}
